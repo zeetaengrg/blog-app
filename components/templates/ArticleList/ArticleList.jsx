@@ -11,7 +11,7 @@ const ArticleList = ({ posts }) => {
         ) : (
           <ul>
             {posts.map((post) => (
-              <Articles key={post.id} post={post} />
+              <Articles key={post._id} post={post} />
             ))}
           </ul>
         )}
